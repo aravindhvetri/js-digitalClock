@@ -1,0 +1,158 @@
+/* section{
+    position: relative;
+ }
+ body{
+    background-color: #000000d1;
+ }
+ .container{
+     position: absolute;
+     left:50%;
+     top: 50%;
+     transform: translateX(-50%);
+     padding: 50px;
+     margin: 30px 0;
+     border: 1px solid;
+     border-radius: 10px;
+     background-color:black ;
+     color: aliceblue; 
+     width:30%;  
+ }
+ .row{
+     margin: 20px 0;
+     padding:10px 20px;
+ }
+ .content{
+    display: flex;
+    justify-content: space-between;
+ }
+ .row span{
+     margin: 10px;
+     text-transform: uppercase;
+ }
+ .show{
+     padding: 20px;
+     border:1px solid rgb(113, 108, 108);
+     border-radius: 10px;
+     color:red;
+     font-size: 30px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .show1{
+     font-size: 17px;
+ }
+ .show span:nth-child(2){
+     margin-left: 40px;
+ }
+ .show span:nth-child(3){
+     margin-left: 60px;
+ }
+ .row:nth-child(2){
+     margin: 0;
+ }
+ .row:nth-child(3){
+     margin: 0;
+ }
+ .row1{
+    display: flex;
+    justify-content: center;
+ }
+  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+ .sec{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+ }
+ .container{
+    border: 3px solid #ffffff94;
+    border-radius: 10px;
+    width:30%;
+    margin: auto;
+    padding: 30px;
+ }
+ .card{
+    border: 3px solid #ffffff94;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .show{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 600;
+    border:1px solid #fff;
+    border-radius: 5px;
+    color:red;
+    padding: 20px;
+    margin: 20px 0;
+    background-color:rgba(255, 0, 0, 0.164);
+ }
+.show1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.row1{
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row {
+    width: 100%;
+}
+input{
+    accent-color: red;
+}
+.show2{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+}
+#pm, #am{
+   margin-right:10px;
+}
+.head-1{
+    font-size: 12px;
+}
+
+/* MEDIA QURIES................................ */
+
+@media(min-width:320px){
+    .container{
+        width:100%;
+    }
+}
+@media(min-width:690px){
+    .container{
+        width:50%;
+    }
+}
+@media(min-width:1020px){
+    .container{
+       width: 30%;
+    }
+}
+
+
